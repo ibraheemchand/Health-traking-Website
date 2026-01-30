@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav id="nav">
+<div id="leftnav">BMI Calculator</div>
+
+ 
+<div id="rightnav">
+    <button class="navbuttons">ABC</button>
+    <button class="navbuttons">PQR</button>
+    <button class="navbuttons">XYZ</button>
+</div> </nav>
+
+
+<div id="head"> <h1>BMI Calculator</h1></div>
+
+
+    <div id="Calculator">
+    <div id="age"><form action="Bmi">
+        <label for="age">Age</label>
+        <input type="number" placeholder="Age">
+    </form></div>
+
+    <div class="input-group">
+    <label for="height-feet">Height:</label>
+    <select id="height-feet" name="feet">
+        <option value="3">3 ft</option>
+        <option value="4">4 ft</option>
+        <option value="5" selected>5 ft</option>
+        <option value="6">6 ft</option>
+        <option value="7">7 ft</option>
+        <option value="8">8 ft</option>
+    </select>
+    
+    <select id="height-inches" name="inches">
+        <option value="0">0 in</option>
+        <option value="1">1 in</option>
+        <option value="2">2 in</option>
+        <option value="3">3 in</option>
+        <option value="4" selected >4 in</option>
+        <option value="5">5 in</option>
+        <option value="6">6 in</option>
+        <option value="7">7 in</option>
+        <option value="8">8 in</option>
+        <option value="9">9 in</option>
+        <option value="10">10 in</option>
+        <option value="11">11 in</option>
+
+        </select>
+    </div>
+
+    <div class="gender-container">
+    <label>Gender:</label>
+    <div class="radio-group">
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+    </div>
+    </div>
+
+   <div class="input-row">
+    <label for="weight">Weight</label>
+    <div class="unit-input">
+        <input type="number" id="weight" placeholder="0">
+        <span class="unit-text">kg</span>
+    </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

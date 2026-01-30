@@ -1,0 +1,52 @@
+body{
+ font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  
+    
+}
+
+#head{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;}
+
+h1{
+font-weight: 410;    
+
+  font-style: normal;
+}
+#Calculator{
+
+    display: flex;
+    flex-direction: column; /* This is the missing piece */
+    align-items: center;    /* Keeps everything centered horizontally */
+    gap: 10px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between; /* Pushes items to the edges */
+    align-items: center;            /* Perfectly centers them vertically */
+    padding: 0 20px;
+    background-color: #003366;
+    color: #1cff08;
+    height: 50px;
+    
+    
+}
+#leftnav{
+margin-top: 3px
+
+}
+
+#rightnav{
+margin-top: 3px;
+    
+}
+
+#navbuttons{
+
+
+}
