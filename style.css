@@ -1,5 +1,5 @@
 body{
- font-family: "Fredoka", sans-serif;
+ font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   
     
@@ -97,4 +97,33 @@ background-color: #003366;
 
     border: none;
     
+}
+
+.despription{
+
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 20px auto;
+   
+    font-family: "Fredoka", sans-serif;
+}
+
+
+
+.despription h2, .despription h3 {
+    color: rgb(9, 99, 126); /* Matches your navbar and button theme */
+    font-family: "Fredoka", sans-serif;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.despription ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.despription li {
+    margin-bottom: 8px;
 }
