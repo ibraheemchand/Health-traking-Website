@@ -68,15 +68,20 @@
     </div>
     </div>
 
-   <div class="input-row">
+   <div class="input-row" style="margin-left: 30px;">
     <label for="weight">Weight</label>
     <div class="unit-input">
-        <input type="number" id="weight" placeholder="0">
+        <input type="number" id="weight" placeholder="weight (kg)" style="gap: 5px;">
         <span class="unit-text">kg</span>
     </div>
     </div>
 
+    <button type="button" id="calc-btn" onclick="calculateBMI()">Calculate BMI</button>
 
+    <div id="result-display">
+    <p>Your BMI: <span id="bmi-value">--</span></p>
+    <p id="bmi-status"></p>
+    </div>
 
 
     </div>

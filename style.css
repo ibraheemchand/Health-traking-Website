@@ -17,12 +17,19 @@ font-weight: 410;
 
   font-style: normal;
 }
-#Calculator{
-
+#Calculator {
     display: flex;
-    flex-direction: column; /* This is the missing piece */
-    align-items: center;    /* Keeps everything centered horizontally */
-    gap: 10px;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px; 
+    
+   
+    background-color:rgb(235, 244, 246); /* Light blue-grey like professional health sites */
+    padding: 30px;             /* Space between the inputs and the box edge */
+    border-radius: 10px;       /* Rounds the corners */
+    width: fit-content;        /* Makes the box only as wide as the content */
+    margin: 40px auto;        
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 
 #nav{
@@ -30,8 +37,8 @@ font-weight: 410;
     justify-content: space-between; /* Pushes items to the edges */
     align-items: center;            /* Perfectly centers them vertically */
     padding: 0 20px;
-    background-color: #003366;
-    color: #1cff08;
+    background-color: rgb(9, 99, 126);
+    color: rgb(255, 255, 255);
     height: 50px;
     
     
@@ -48,5 +55,27 @@ margin-top: 3px;
 
 #navbuttons{
 
+background-color: #003366;
+}
 
+#calc-btn {
+    background-color: rgb(9, 99, 126); /* Matches your navbar */
+    color: #ffffff;            /* Matches your navbar text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Fredoka", sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+#calc-btn:hover {
+    background-color: rgb(9, 99, 126);
+}
+
+#result-display {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
 }
