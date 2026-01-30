@@ -24,18 +24,18 @@ font-weight: 410;
     gap: 20px; 
     
    
-    background-color:rgb(235, 244, 246); /* Light blue-grey like professional health sites */
-    padding: 30px;             /* Space between the inputs and the box edge */
-    border-radius: 10px;       /* Rounds the corners */
-    width: fit-content;        /* Makes the box only as wide as the content */
+    background-color:rgb(235, 244, 246); 
+    padding: 30px;             
+    border-radius: 10px;       
+    width: fit-content;        
     margin: 40px auto;        
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 
 #nav{
     display: flex;
-    justify-content: space-between; /* Pushes items to the edges */
-    align-items: center;            /* Perfectly centers them vertically */
+    justify-content: space-between; 
+    align-items: center;            
     padding: 0 20px;
     background-color: rgb(9, 99, 126);
     color: rgb(255, 255, 255);
@@ -59,8 +59,8 @@ background-color: #003366;
 }
 
 #calc-btn {
-    background-color: rgb(9, 99, 126); /* Matches your navbar */
-    color: #ffffff;            /* Matches your navbar text */
+    background-color: rgb(9, 99, 126); 
+    color: #ffffff;            
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
