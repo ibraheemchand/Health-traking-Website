@@ -79,3 +79,22 @@ background-color: #003366;
     text-align: center;
     font-weight: bold;
 }
+
+#scale{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: none;
+    margin-right: 90px;
+}
+
+#usScale{
+   border: none;
+   
+}
+
+#siUnit{
+
+    border: none;
+    
+}
