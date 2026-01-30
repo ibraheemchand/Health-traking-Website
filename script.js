@@ -1,4 +1,12 @@
 function calculateBMI() {
+
+    const genderSelected = document.querySelector('input[name="gender"]:checked');
+    
+   
+    if (!genderSelected) {
+        alert("Please select your Gender before calculating!");
+        return; 
+    }
     const feet = parseFloat(document.getElementById('height-feet').value);
     const inches = parseFloat(document.getElementById('height-inches').value);
     const weight = parseFloat(document.getElementById('weight').value);
